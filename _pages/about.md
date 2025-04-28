@@ -2,33 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Korea Advanced Institute of Science & Technology (KAIST)
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there! I'm Jong Myoung Kim, a Ph.D. candidate at KAIST. I work on large language models (LLMs) and natural language processing (NLP), especially focusing on making language models smarter and more flexible. I've been building datasets that better reflect how people actually speak, designing easier ways to transfer knowledge from English models to other non-English models, and finding simple tricks to make embeddings work better across languages.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm passionate about creating AI that understands real-world language — even when it's messy, incomplete, or a little ambiguous. In the bigger picture, I'm driven by the idea that technology should work well for everyone, no matter what language they speak. This is why along with my colleagues at KAIST and SK Telecom, I dedicated much of my time recently to build Stratapilot, the next-gen copilot agent for your everyday OS tasks. The Stratapilot project is made possible by MCP, a protocol that allows an LLM to communicate its knowledge with other LLMs or even legacy applications. I believe that with MCP, my dream of having a fully intelligent digital assistant can finally come true. As with all other open-source projects, help on development of Stratapilot is always welcome. Let's build together!
